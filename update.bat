@@ -8,7 +8,7 @@ pause
 git pull 
 
 call ac
-pip install -U langchain langchain-core langchain-community langchain-openai
+pip install -U langchain langchain-core langchain-community langchain-openai openai google-search-results unstructured chromadb pinecone-client youtube-transcript-api pytube jupyter ipywidgets
 
 if not exist langchain-tutorials-gkamradt- (
    git clone https://github.com/tutumomo/langchain-tutorials-gkamradt-.git
