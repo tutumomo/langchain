@@ -1,6 +1,8 @@
+REM https://github.com/tutumomo/langchain
 @echo off
 start https://github.com/tutumomo/langchain-tutorials-gkamradt-
 start https://github.com/tutumomo/LangChain-Tutorials
+start https://github.com/tutumomo/LangChain-Chinese-Getting-Started-Guide
 pause
 
 git pull 
@@ -24,4 +26,11 @@ if not exist LangChain-Tutorials (
    cd ..
 )
 
+if not exist LangChain-Chinese-Getting-Started-Guide (
+   git clone https://github.com/tutumomo/LangChain-Chinese-Getting-Started-Guide.git
+) else (
+   cd LangChain-Chinese-Getting-Started-Guide
+   git pull
+   cd ..
+)
 pause
