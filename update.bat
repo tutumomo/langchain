@@ -1,5 +1,6 @@
 REM https://github.com/tutumomo/langchain
 @echo off
+start https://github.com/tutumomo/langchain
 start https://github.com/tutumomo/langchain-tutorials-gkamradt-
 start https://github.com/tutumomo/LangChain-Tutorials
 start https://github.com/tutumomo/LangChain-Chinese-Getting-Started-Guide
